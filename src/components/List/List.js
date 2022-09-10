@@ -1,4 +1,4 @@
-import './List.modules.scss';
+import './List.module.scss';
 
 const List = () => {
     return (
