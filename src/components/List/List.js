@@ -1,8 +1,12 @@
+<<<<<<< HEAD
 import styles from './List.module.scss';
 import Column from './../Column/Column';
 import ColumnForm from './../ColumnForm/ColumnForm';
 import { useState } from 'react';
 import shortid from 'shortid';
+=======
+import './List.module.scss';
+>>>>>>> refs/remotes/origin/main
 
 const List = () => {
     const [columns, setColumns] = useState([
