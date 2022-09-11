@@ -12,6 +12,7 @@
     "react-scripts": "5.0.1",
     "resolve-url-loader-remove-cr-true": "^3.1.1",
     "sass": "^1.54.8",
+    "shortid": "^2.2.16",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
