@@ -12,8 +12,6 @@ const SearchForm = () => {
                 <span className="fa fa-search" />
             </Button>
             <Button>Create</Button>
-            <Button text="Search" />
-            <Button text="Create" />
         </form>
     );
   };
