@@ -7,10 +7,11 @@ const CardForm = props => {
     const [title, setTitle] = useState('');
     const handleSubmit = e => {
         e.preventDefault();
-        props.action({ title: title }, props.columnId);
+        props.addCard({ title: title }, props.columnId);
         setTitle('');
+    }
     return(
-        <form onSubmit={handleSubmit} className=".cardForm">
+        <form onSubmit={handleSubmit} className={styles.cardForm}>
         <TextInput value={title} onChange={e => setTitle(e.target.value)} />
         <Button>Add card</Button>
     </form>
