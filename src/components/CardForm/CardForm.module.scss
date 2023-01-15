@@ -1,8 +1,25 @@
-.cardForm{
-    padding: 10px;
-    text-align: center;
+@import '../../styles/settings.scss';
+
+.cardForm {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  flex-wrap: wrap;
+  padding: 10px;
 }
 
-span{
-    margin: 5px;
+.inputName {
+  padding: 0 0 10px 0;
+}
+
+@media (max-width: 767px) {
+  .cardForm {
+    width: 100%;
+    flex-direction: column;
+    margin: 0 0 $base-size 0;
+  }
+
+  .inputName {
+    padding: 0;
+  }
 }
